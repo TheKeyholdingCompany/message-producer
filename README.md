@@ -1,7 +1,14 @@
 # Kafka Broadcaster
 
-This is a simple Kafka broadcaster that reads from a CSV of events and a json templaet and sends the content to a Kafka topic.
+This is a simple Kafka broadcaster that reads from a CSV of events and a json template and sends the content to a Kafka topic.
 It can also print out events sent to a topic when in listening mode.
+
+This was originally developed by a group of 5 students doing a placement at [The Keyholding Company](https://www.keyholding.com/) through [Next Tech Girls](https://nexttechgirls.com/):
+* Antonina Basaraba
+* [Dila Sisek](https://github.com/dilaa07)
+* Lasya Sura
+* [Nicola Goh](https://github.com/NHQ401)
+* Millie Neale
 
 # Usage
 Populate `events.csv` with the information you want to use and `template.json` with how you want the events to look like when sent to Kafka.
