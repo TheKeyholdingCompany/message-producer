@@ -1,6 +1,6 @@
 {
-    "type": "NewPersonregistered",
-    "people": {
+    "type": "NewPersonRegistered",
+    "details": {
         "name": "{name}",
         "age": "{age}",
         "department": "Technology"
