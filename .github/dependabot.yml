@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      pip-deps:
+        patterns: ["*"]
+        update-types: ["patch", "minor", "major"]
+    cooldown:
+      default-days: 3
+      semver-major-days: 14
